@@ -1,0 +1,353 @@
+/********************************/
+/*Estilo del html  		*/
+/********************************/
+
+/*resposibidad*/
+@media(max-width: 840px){
+	div.contenido{
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media(max-width: 600px){
+	div.contenido{
+		grid-template-columns: repeat(1	, 1fr);
+	}
+}
+
+/***************************************/
+/*Formato para el body				   */
+/***************************************/
+body.pag-Index{
+	background-image:url("../IMG/fondo.jpg");
+    background-size:70%;
+    background-attachment: fixed;
+}
+
+body.unidades{
+	background-color: rgba(46, 65, 117, 0.925);
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+/***********************************/
+/*Este muestra la cabecera del html*/
+/*de manera general*/
+/***********************************/
+header.parte-superior-index{
+	width: 100%;
+	overflow: hidden;
+	background: #000000;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+/*********************************/
+/*Clase creada para centrar todo */
+/*el contenido de manera correcta*/
+/*********************************/
+.wrapper {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+/*********************************/
+/*headers personalizados del html*/
+/*********************************/
+header .parte-superior-index{
+	color: rgba(5, 5, 5, 0.829);
+	font-size: 50px;
+	line-height: 100px;
+	float: left;
+}
+
+header nav{
+	float: right;
+	line-height: 200px;
+}
+
+header nav a{
+	display: inline-block;
+	color: #9b0909;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 20px;
+	font-weight: bold;
+	transition: all 0.06s ease-in-out;
+}
+
+header nav a:hover{
+	background: rgb(175, 157, 52);
+	border-radius: 50px;
+}
+
+/*division de titulos de las unidades*/
+header.cabecera-tituloUnidades{
+	background-color: rgb(41, 42, 56);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 85px;
+	padding: 5px 10%;
+}
+
+
+/*Division de los temas de las unidades*/
+header.unidades{
+	background-color: rgb(206, 172, 99);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 85px;
+	padding: 5px 10%;
+}
+
+header.unidades .btn button{
+	margin-left: 10px;
+	font-weight: 700;
+	color: #160438;
+	padding: 10px 30px;
+	background: #e4f5e8;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s;
+	font-size: 20px;
+}
+
+header.unidades .btn button:hover{
+	background-color:#90c3e6 ;
+	color: #F9E79F;
+	transform: scale(1.2);
+}
+
+/*=====  End of Contenido de los heads  ======*/
+
+/********************************/
+/*Este bloque corresponde a la  */
+/*divisiones					*/
+/********************************/
+
+.contenedor-index{
+	width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    margin: 20px;
+	
+}
+.contenedor-index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ajustar espaciado entre las secciones */
+    gap: 1px; /* Espacio entre secciones */
+}
+.FuenteTitulo2 {
+    font-size: 28px; /* Tamaño de fuente ajustado */
+    text-align: center; /* Centrar el texto */
+    margin-bottom: 20px; /* Reducir espacio debajo del título */
+}
+/* CSS para centrar el contenido dentro de la clase .imagenMuestra */
+.imagenMuestra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+/* CSS para centrar solo el texto dentro de la clase .contenidoImagen */
+.imagenMuestra p.contenidoImagen {
+    text-align: center;
+    margin: 0; /* Ajuste de margen si es necesario */
+	display: inline-block; /* Hacer que el párrafo se comporte como bloque en línea */
+}
+
+
+.center{
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	align-items: center;
+}
+  
+.contenedor{
+	display: grid;
+    grid-template-columns: .8fr 2fr;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	margin-top: 150px; /* Ajuste para evitar superposición con el header */
+	padding-bottom: 20px; /* Ajuste para evitar superposición con el footer */
+  }
+
+  
+  .column {
+	background-color: rgb(216, 20, 46);
+	padding: 10px;
+  }
+
+.index {
+	
+	color: rgb(253, 253, 253);
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.info {
+	
+	color: #1b1010;
+	background-color: rgba(198, 208, 235, 0.952);
+}
+
+.encabezado{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+/***************************************/
+/*Formato para parrafo texto base		*/
+/***************************************/
+
+a{
+	color: rgb(245, 215, 181);
+}
+
+p.titulo-index{
+	font-size: 30px;
+	font-family: arial;
+	text-align: center;
+	color: #ebfff4;
+}
+
+p.indiceTitulo{
+	color:#dfe4ee;
+	font-size: 20px;
+}
+
+p.indiceSubTitulo{
+	color: rgb(87, 218, 54);
+	font-size: 14;
+}
+
+p.contenidoImagen{
+	font-size: 3rem;
+	color: #ffffff;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	text-shadow: 0 0 8px rgba(0, 0, 0, 3.0);
+	font-family: 'Kalam', cursive;
+}
+
+font.FuenteTitulo2{
+	font-size: 60px;
+	color: rgb(241, 214, 124);
+}
+
+/****************************************/
+/*Formato para imagen opaca	e imagen de */
+/*estres								*/
+/****************************************/
+section.imagenMuestra{
+	width: 400px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	margin: 10px auto;
+	border-radius: 20px;
+	box-shadow: 5px 8px 12px rgb(253, 252, 253);
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.imagenMuestra:hover {
+	transform: scale(1.1);
+	box-shadow: 13px 15px, 37px rgb(255, 28, 255);
+}
+
+/***************************************/
+/*Formato para Imagenes				   */
+/***************************************/
+img.imagenProgreso{
+	content: url("../IMG/_12e5c9ba-5717-4bcf-8c89-e43462a99047.jpg");
+	width: 100%;
+	height: 100%;
+}
+
+img.unidad1{
+	content: url("..//IMG/_f497ead9-3e50-4e2c-814e-51104a565a44.jpg");
+	width: 100%;
+	height: 100%;
+}
+
+img.unidad2{
+	content: url("../IMG/_65321b10-5990-4ed8-a438-f6e016beb37b.jpg");
+	width: 100%;
+	height: 100%;
+}
+
+img.unidad3{
+	content: url("../IMG/sipi.jpg");
+	width: 100%;
+	height: 100%;
+}
+
+img.unidad4{
+	content: url("../IMG/_98016707-2013-4b7f-82d8-40a46801789c.jpg");
+	width: 100%;
+	height: 100%;
+}
+
+img.practicas{
+	content: url("../IMG/PRA7.jpg");
+	width: 100%;
+	height: 100%;
+}
+
+img.reporte{
+	content: url(../IMG/_12e5c9ba-5717-4bcf-8c89-e43462a99047.jpg);
+	width: 150%;
+	height: 150%;
+}
+
+img.gamascom{
+	content: url(../IMG/PRA7.jpg);
+	width: 100%;
+	height: 100%;
+}
+
+img.hola{
+	content: url(../IMG/_290992ac-ff9e-453f-9b01-6b5d36945799.jpg);
+	width: 100%;
+	height: 100%;
+}
+
+
+img.feo{
+	content: url(../IMG/PRA5.jpg);
+	width: 100%;
+	height: 100%;
+}
+
+img.fei{
+	content: url(../IMG/_6598b467-16f5-4547-a22d-e6a3638b31eb.jpg);
+	width: 100%;
+	height: 100%;
+}
+
+
+
+img.cotizacion{
+	content: url(../IMG/PRA1.jpg);
+	width: 200%;
+	height: 100%;
+}

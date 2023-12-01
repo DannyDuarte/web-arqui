@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Unidad 4</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/Style.css" media="screen" />
+    </head>
+    <body class="unidades">
+        <header class="cabecera-tituloUnidades">
+            <div>
+                <font class="FuenteTitulo2"> UNIDAD 4</font>
+            </div>
+        </header>
+        <header class="unidades">
+            <div>
+                <a href="Index.html" class="btn"><button>⬅ INICIO </button></a>
+                <a href="unidad1.html" class="btn"><button>Unidad 1</button></a>
+                <a href="unidad2.html" class="btn"><button>Unidad 2</button></a>
+                <a href="unidad3.html" class="btn"><button>Unidad 3</button></a>
+                <a href="unidad4.html" class="btn"><button>Unidad 4</button></a>
+                <a href="practicas.html" class="btn"><button>Practicas</button></a>
+
+                
+
+            </div>
+        </header>
+        <div class="contenedor">
+            <div class="index column">
+                <ul>
+                    <li><a href="#4.1 Aspectos básicos de la computación paralela.">4.1 Aspectos básicos de la computación paralela </a></li>
+                    <li><a href="#4.2 Tipos de computación paralela.">4.2 Tipos de computación paralela.</a></li>
+                    <li><a href="#4.2.1 Clasificacion.">4.2.1 Clasificacion.</a></li>
+                    <li><a href="#4.2.2 Arquitectura de computadores secuenciales.">4.2.2 Arquitectura de computadores secuenciales.</a></li>
+                    <li><a href="#4.2.3 Organización de direcciones de memoria.">4.2.3 Organización de direcciones de memoria.</a></li>
+                    <li><a href="#4.3 Sistema de memoria compartida.">4.3 Sistema de memoria compartida.</a></li>
+                    <li><a href="#4.3.1.1 Redes de medio compartida.">4.3.1.1 Redes de medio compartida.</a></li>
+                    <li><a href="#4.3.1.2 Redes conmutadas.">4.3.1.2 Redes conmutadas.</a></li>
+                    <li><a href="#4.4 Sistemas de Memoria Distribuida: Multiprocesadores">4.4 Sistemas de Memoria Distribuida": Multiprocesadores.</a></li>
+                    <li><a href="# 4.4.1 Redes de Interconexión Estáticas"> 4.4.1 Redes de Interconexión Estáticas</a></li>
+                    <li><a href="#4.5 Casos de estudio.">4.5 Casos de estudio.</a></li>
+                </ul>
+            </div>
+            <div class="info column">
+                <h2 id="4.1 Aspectos básicos de la computación paralela.">4.1 Aspectos básicos de la computación paralela </h2>
+    <p>La computación paralela se refiere al uso simultáneo de múltiples recursos informáticos para resolver problemas. Esto implica dividir grandes problemas en tareas más pequeñas que pueden ejecutarse al mismo tiempo, lo que acelera el proceso y mejora la eficiencia. Hay dos tipos principales de paralelismo: el de datos y el de tareas. Las arquitecturas varían, desde sistemas multiprocesador hasta multicomputadores. La programación paralela es compleja e implica herramientas específicas y técnicas para gestionar la concurrencia. Aunque ofrece ventajas en velocidad y eficiencia, también presenta desafíos como la sincronización de tareas y la gestión de la memoria. Se aplica en campos como la investigación científica, simulación, procesamiento de datos en inteligencia artificial y aprendizaje automático, siendo crucial en avances tecnológicos y científicos actuales..</p>
+    <div class="center">
+        <img src="../IMG/paralelo.webp">
+</div>
+
+
+
+    <h2 id="4.2 Tipos de computación paralela.">4.2 Tipos de computación paralela.</h2>
+    <p>Existen varios tipos de computación paralela que se utilizan en diferentes contextos y escenarios. Algunos de los enfoques más comunes incluyen el procesamiento paralelo a nivel de bit, a nivel de instrucción, a nivel de datos y a nivel de tarea. Estos enfoques se diferencian en cómo se dividen y procesan las tareas y los datos.
+        <div class="center">
+        <img src="../IMG/tipos.png">
+</div>
+    </p>
+    <h2 id="4.2.1 Clasificacion.">4.2.1 Clasificacion.</h2>
+    <p>La clasificación de la computación paralela puede realizarse en función de la forma en que se dividen las tareas y los datos, así como de la forma en que se coordinan y comunican los procesos paralelos. Algunas clasificaciones comunes incluyen la computación paralela a nivel de bit, a nivel de instrucción, a nivel de datos y a nivel de tarea.
+</p>
+    <h2 id="4.2.2 Arquitectura de computadores secuenciales.">4.2.2 Arquitectura de computadores secuenciales.</h2>
+    <p>La arquitectura de computadores secuencial se refiere a los sistemas informáticos tradicionales en los que las instrucciones se ejecutan una tras otra en secuencia. Este tipo de arquitectura sigue siendo común en muchas computadoras personales y estaciones de trabajo.
+</p>
+    <h2 id="4.2.3 Organización de direcciones de memoria.">4.2.3 Organización de direcciones de memoria.</h2>
+    <p>La organización de direcciones de memoria se refiere a cómo se asignan y acceden a las direcciones de memoria en un sistema de computación paralela. Esto incluye consideraciones como la memoria compartida, la memoria distribuida y las técnicas de direccionamiento utilizadas para acceder a los datos en paralelo.</p>
+    <h2 id="4.3 Sistema de memoria compartida.">4.3 Sistema de memoria compartida.</h2>
+    <p>Los sistemas de memoria compartida son un enfoque de computación paralela en el que múltiples procesadores acceden a una misma área de memoria compartida. Esto permite a los procesadores compartir datos y comunicarse de manera eficiente. Dentro de los sistemas de memoria compartida, existen dos tipos principales de redes: las redes de medio compartida y las redes conmutadas.</p>
+    <h2 id="4.3.1.1 Redes de medio compartida.">4.3.1.1 Redes de medio compartida.</h2>
+    <p>Las redes de medio compartida son un tipo de arquitectura de memoria compartida en la que los procesadores se conectan físicamente a un bus compartido o a una red de interconexión. Los procesadores pueden leer y escribir en la memoria compartida a través de este medio compartido.</p>
+    <h2 id="4.3.1.2 Redes conmutadas.">4.3.1.2 Redes conmutadas.</h2>
+    <p>Las redes conmutadas, por otro lado, utilizan interruptores o conmutadores para establecer conexiones entre los procesadores y la memoria compartida. Estas redes ofrecen una mayor escalabilidad y capacidad de comunicación en comparación con las redes de medio compartida.</p>
+    
+    <h2 id="4.4 Sistemas de Memoria Distribuida": Multiprocesadores>4.4 Sistemas de Memoria Distribuida": Multiprocesadores</h2>
+    <p>
+        Los sistemas de memoria distribuida son esenciales en la computación paralela, permitiendo a múltiples procesadores trabajar simultáneamente en tareas complejas. Cada procesador cuenta con su propia memoria local y se comunica con otros a través de una red. Esta arquitectura escalable es utilizada en supercomputadoras y sistemas de alto rendimiento para el procesamiento eficiente de grandes volúmenes de datos.
+        <br><br>
+        La ventaja principal de los sistemas de memoria distribuida radica en su capacidad para dividir tareas en paralelo, permitiendo una ejecución más rápida de algoritmos complejos. Sin embargo, la coordinación entre los procesadores y la gestión eficiente de la comunicación entre ellos son aspectos críticos para maximizar su rendimiento.
+    </p>
+    
+    <h2 id= "4.4.1 Redes de Interconexión Estáticas.">4.4.1 Redes de Interconexión Estáticas.</h2>
+    <p>
+        Las redes de interconexión estáticas son estructuras predefinidas que conectan múltiples procesadores en sistemas multiprocesador. Estas redes establecen rutas fijas y directas entre los nodos de procesamiento, minimizando la latencia y mejorando la eficiencia en la transferencia de datos.
+        <br><br>
+        Ejemplos comunes de redes estáticas incluyen las topologías en malla, toro y árbol. La elección de la topología depende de la aplicación y los requisitos de comunicación. Las redes estáticas garantizan una rápida comunicación entre los procesadores, lo que las hace ideales para sistemas que requieren un alto rendimiento en el intercambio de datos, como supercomputadoras y centros de datos de alto rendimiento.
+    </p>
+    
+
+    
+    <h2 id="4.5 Casos de estudio.">4.5 Casos de estudio.</h2>
+    <p>En el campo de la computación paralela, existen numerosos casos de estudio que han demostrado la eficacia y los beneficios de los enfoques paralelos en diferentes dominios. Algunos ejemplos incluyen el uso de computación paralela en simulaciones científicas, análisis de grandes conjuntos de datos, renderizado de gráficos y modelado de sistemas complejos.</p>
+    <p>
+        Simulación de sistemas físicos complejos: La computación paralela se utiliza ampliamente en la simulación de sistemas físicos complejos, como el clima y la física de partículas. En el campo de la climatología, los modelos numéricos requieren un alto grado de paralelismo para simular el comportamiento atmosférico a gran escala. Los supercomputadores paralelos se utilizan para ejecutar modelos climáticos y proporcionar pronósticos meteorológicos precisos. En la física de partículas, experimentos como el Gran Colisionador de Hadrones (LHC) generan grandes cantidades de datos. La computación paralela se utiliza para procesar y analizar estos datos, buscando patrones y partículas subatómicas. Los sistemas de memoria distribuida son especialmente útiles en este caso, ya que permiten el procesamiento en paralelo de grandes volúmenes de datos.
+        <br><br>
+        Minería de datos y aprendizaje automático: Con el crecimiento masivo de los conjuntos de datos en diversos campos, la computación paralela se ha convertido en una herramienta esencial para la minería de datos y el aprendizaje automático. Algoritmos como el aprendizaje profundo requieren una gran cantidad de cálculos intensivos que se pueden acelerar enormemente mediante la computación paralela. Los sistemas de memoria compartida y distribuida se utilizan para entrenar modelos de aprendizaje automático en paralelo, dividiendo los datos y las tareas de procesamiento entre múltiples procesadores. Esto permite realizar el entrenamiento más rápido y manejar grandes conjuntos de datos de manera eficiente.
+        <br><br>
+        Renderización de gráficos en tiempo real: En la industria de los videojuegos y la simulación, la renderización de gráficos en tiempo real es esencial para lograr una experiencia visual fluida y realista. La computación paralela se utiliza en el procesamiento gráfico para acelerar los cálculos complejos necesarios para generar imágenes y efectos visuales en tiempo real. Las tarjetas gráficas (GPU) se utilizan comúnmente en la renderización paralela, ya que están diseñadas específicamente para ejecutar múltiples tareas en paralelo. Los desarrolladores de juegos y software de renderización aprovechan la capacidad de las GPUs para dividir las tareas de renderización entre múltiples hilos y procesadores, lo que permite una renderización rápida y eficiente de escenas complejas en tiempo real.
+        <br><br>
+        Estos son solo algunos ejemplos de casos de estudio en los que la computación paralela ha demostrado ser invaluable. En general, la computación paralela se utiliza en cualquier campo que requiera un procesamiento intensivo y rápido de datos, como la investigación científica, la simulación de sistemas complejos, el análisis de grandes conjuntos de datos y la generación de gráficos en tiempo real.
+    </p>
+    
+    
+
+
+</div>
+        </div>
+    </body>
+</html>
